@@ -7,9 +7,10 @@ function onReady() {
     console.log("Ready to go!")
     // Make sure you check the index.html file! 
     // There are lots of buttons and things ready for you to hook into here!
-    function attackHandler(event) {
+
         
-    }
+        
+    
 
 
 
@@ -24,3 +25,18 @@ function onReady() {
 
 
 onReady()
+function arcaneSpepterButton(event) { 
+// trying to make event start with subtracting from the attack buttons value
+//
+    const attackSepterAction = document.getElementsByClassName("attack-btn arcane-scepter")
+  //trying to ge the value of 12 from my button
+    let apValue = class.value('12')
+
+
+
+
+
+render()
+//how do we start render to update fungus hp and attackbuttons
+}
+// possible loop we can use for rendering both values
