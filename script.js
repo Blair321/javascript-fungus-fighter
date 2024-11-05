@@ -5,10 +5,16 @@ let fungusHP = 100;
 let attackButtons =  100;
 function onReady() {
     console.log("Ready to go!")
-    
     // Make sure you check the index.html file! 
     // There are lots of buttons and things ready for you to hook into here!
-    
+    function attackHandler(event) {
+        
+    }
+
+
+
+
+
     
     // 🧠 Remember
     // - Handle events that ->
